@@ -1,0 +1,50 @@
+*{
+    margin:0;
+    padding:0;
+}
+#div1
+{
+    margin-top:200px;
+    line-height: 45px;
+    color:yellow;
+    background-color:green;
+    width:40%;
+    margin-left:29%;
+    height:100%;
+    //text-align:center;
+    padding:35px;
+    position:relative;
+    border:3px solid blue;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+}
+body
+{
+    background-color:#d8f805;
+}
+p
+{
+    font-size:40px;
+    color:white;
+}
+#button-start,#button-stop,#button-reset
+{
+    font-size:30px;
+    margin:10px;
+    background-color:green;
+    border:2px solid  white;
+    padding:0 30px;
+    color:white;
+    border-radius:5px;
+}
+#button-start:hover,#button-stop:hover,
+#button-reset:hover
+{
+    color:green;
+    background-color:rgb(255, 255, 255);
+    border:3px solid black;
+    border-radius:25px;
+    //font-size:35px;
+    cursor:pointer;
+    transition-duration:0.3s;
+}
